@@ -417,7 +417,7 @@ const extractCellValue = (value) => {
               <div>
                 <label htmlFor="file1" className="ui icon button">
                   <i className="file icon"></i>
-                  Open File 1
+                  Open PORTFOLIO
                 </label>
                 <input
                   type="file"
@@ -495,7 +495,7 @@ const extractCellValue = (value) => {
               <div>
                 <label htmlFor="file2" className="ui icon button">
                   <i className="file icon"></i>
-                  Open File 2
+                  Open DPholding
                 </label>
                 <input
                   type="file"
