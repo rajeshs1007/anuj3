@@ -568,18 +568,18 @@ const extractCellValue = (value) => {
           <Message.Header>File 2 is not uploaded!</Message.Header>
         </Message>
       )}
-       <Button onClick={handleDownloadResult}>Download Result</Button>
+       // <Button onClick={handleDownloadResult}>Download Result</Button>
       <Table celled>
         <Table.Header>
           <Table.Row>
-            <Table.HeaderCell>File 1 Column {ColumnIndex0File1}</Table.HeaderCell>
-            <Table.HeaderCell>File 1 Column {ColumnIndex5}</Table.HeaderCell>
-            <Table.HeaderCell>File 1 Column {ColumnIndex1}</Table.HeaderCell>
-            <Table.HeaderCell>File 1 Column {ColumnIndex2}</Table.HeaderCell>
-            <Table.HeaderCell>File 2 Column {ColumnIndex0File2}</Table.HeaderCell>
-            <Table.HeaderCell>File 2 Column {ColumnIndex6}</Table.HeaderCell>
-            <Table.HeaderCell>File 2 Column {ColumnIndex3}</Table.HeaderCell>
-            <Table.HeaderCell>File 2 Column {ColumnIndex4}</Table.HeaderCell>
+            <Table.HeaderCell>PORTFOLIO Column {ColumnIndex0File1}</Table.HeaderCell>
+            <Table.HeaderCell>PORTFOLIO Column {ColumnIndex5}</Table.HeaderCell>
+            <Table.HeaderCell>PORTFOLIO Column {ColumnIndex1}</Table.HeaderCell>
+            <Table.HeaderCell>PORTFOLIO Column {ColumnIndex2}</Table.HeaderCell>
+            <Table.HeaderCell>DPholding Column {ColumnIndex0File2}</Table.HeaderCell>
+            <Table.HeaderCell>DPholding Column {ColumnIndex6}</Table.HeaderCell>
+            <Table.HeaderCell>DPholding Column {ColumnIndex3}</Table.HeaderCell>
+            <Table.HeaderCell>DPholding Column {ColumnIndex4}</Table.HeaderCell>
             <Table.HeaderCell>Diff</Table.HeaderCell>
             <Table.HeaderCell>Q Diff</Table.HeaderCell>
           </Table.Row>
