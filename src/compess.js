@@ -481,14 +481,14 @@ const extractCellValue = (value) => {
                 </Button>
               </Button.Group>
             </Segment>
-            <label>
+            {/* <label>
         <input
           type="checkbox"
           checked={showDifferenceRows}
           onChange={handleShowDifferenceRows}
         />
         Show Only Differences
-      </label>
+      </label> */}
           </Grid.Column>
           <Grid.Column textAlign="center">
             <Segment>
@@ -568,7 +568,7 @@ const extractCellValue = (value) => {
           <Message.Header>File 2 is not uploaded!</Message.Header>
         </Message>
       )}
-       // <Button onClick={handleDownloadResult}>Download Result</Button>
+       {/*  <Button onClick={handleDownloadResult}>Download Result</Button>*/}
       <Table celled>
         <Table.Header>
           <Table.Row>
