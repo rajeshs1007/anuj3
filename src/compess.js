@@ -572,14 +572,14 @@ const extractCellValue = (value) => {
       <Table celled>
         <Table.Header>
           <Table.Row>
-            <Table.HeaderCell>PORTFOLIO Column {ColumnIndex0File1}</Table.HeaderCell>
-            <Table.HeaderCell>PORTFOLIO Column {ColumnIndex5}</Table.HeaderCell>
-            <Table.HeaderCell>PORTFOLIO Column {ColumnIndex1}</Table.HeaderCell>
-            <Table.HeaderCell>PORTFOLIO Column {ColumnIndex2}</Table.HeaderCell>
-            <Table.HeaderCell>DPholding Column {ColumnIndex0File2}</Table.HeaderCell>
-            <Table.HeaderCell>DPholding Column {ColumnIndex6}</Table.HeaderCell>
-            <Table.HeaderCell>DPholding Column {ColumnIndex3}</Table.HeaderCell>
-            <Table.HeaderCell>DPholding Column {ColumnIndex4}</Table.HeaderCell>
+            <Table.HeaderCell>PORTFOLIO Name </Table.HeaderCell>
+            <Table.HeaderCell>PORTFOLIO UCC </Table.HeaderCell>
+            <Table.HeaderCell>PORTFOLIO Isin </Table.HeaderCell>
+            <Table.HeaderCell>PORTFOLIO Quantity </Table.HeaderCell>
+            <Table.HeaderCell>DPholding Name </Table.HeaderCell>
+            <Table.HeaderCell>DPholding UCC </Table.HeaderCell>
+            <Table.HeaderCell>DPholding Isin </Table.HeaderCell>
+            <Table.HeaderCell>DPholding Quantity </Table.HeaderCell>
             <Table.HeaderCell>Diff</Table.HeaderCell>
             <Table.HeaderCell>Q Diff</Table.HeaderCell>
           </Table.Row>
