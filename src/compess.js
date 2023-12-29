@@ -2,12 +2,10 @@ import React, { useState } from "react";
 import "semantic-ui-css/semantic.min.css";
 import "./App.css";
 import readXlsxFile from "read-excel-file";
-
-import { Container, Grid, Segment } from "semantic-ui-react";
+import { Container, Grid, Segment, Responsive } from "semantic-ui-react";
 import { Table, Button, Icon, Message } from "semantic-ui-react";
-import * as XLSX from 'xlsx';
-import { saveAs } from 'file-saver';
-
+import * as XLSX from "xlsx";
+import { saveAs } from "file-saver";
 
 
 const App = () => {
@@ -409,6 +407,7 @@ const extractCellValue = (value) => {
 
 
   return (
+    <Responsive>
     <Container>
       <Grid container doubling>
         <Grid.Row columns={3} divided stretched verticalAlign={"middle"}>
@@ -587,6 +586,7 @@ const extractCellValue = (value) => {
         <Table.Body>{Result}</Table.Body>
       </Table>
     </Container>
+        </Responsive>
   );
 };
 
