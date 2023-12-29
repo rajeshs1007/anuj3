@@ -16,10 +16,10 @@ const App = () => {
   const [Result, setResult] = useState([]);
   const [ColumnIndex1, setColumnIndex1] = useState(2); // Default to compare the second column of File 1
   const [ColumnIndex2, setColumnIndex2] = useState(19); // Default to compare the second column of File 1
-  const [ColumnIndex3, setColumnIndex3] = useState(3); // Default to compare the second column of File 2
-  const [ColumnIndex4, setColumnIndex4] = useState(5); // Default to compare the second column of File 2
+  const [ColumnIndex3, setColumnIndex3] = useState(1); // Default to compare the second column of File 2
+  const [ColumnIndex4, setColumnIndex4] = useState(3); // Default to compare the second column of File 2
   const [ColumnIndex0File1, setColumnIndex0File1] = useState(1); // Default to compare the first column of File 1
-  const [ColumnIndex0File2, setColumnIndex0File2] = useState(4); // Default to compare the first column of File 2
+  const [ColumnIndex0File2, setColumnIndex0File2] = useState(2); // Default to compare the first column of File 2
   const [ColumnIndex5, setColumnInde5] = useState(0);
   const [ColumnIndex6, setColumnIndex6] = useState(0);
   const [file1Uploaded, setFile1Uploaded] = useState(false);
@@ -430,7 +430,7 @@ const extractCellValue = (value) => {
             </Segment>
             <Segment>
               <div>
-                <label>Column Index 0 in File 1:</label>
+                <label>PORTFOLIO Name Column :</label>
                 <input
                   type="number"
                   value={ColumnIndex0File1}
@@ -440,7 +440,7 @@ const extractCellValue = (value) => {
             </Segment>
             <Segment>
               <div>
-                <label>Thire Column Index to Compare in File 1:</label>
+                <label>PORTFOLIO UCC Column :</label>
                 <input
                   type="number"
                   value={ColumnIndex5}
@@ -450,7 +450,7 @@ const extractCellValue = (value) => {
             </Segment>
             <Segment>
               <div>
-                <label>Column Index to Compare in File 1:</label>
+                <label>PORTFOLIO Isin Column :</label>
                 <input
                   type="number"
                   value={ColumnIndex1}
@@ -460,7 +460,7 @@ const extractCellValue = (value) => {
             </Segment>
             <Segment>
               <div>
-                <label>Second Column Index to Compare in File 1:</label>
+                <label>PORTFOLIO Quantity Column :</label>
                 <input
                   type="number"
                   value={ColumnIndex2}
@@ -508,7 +508,7 @@ const extractCellValue = (value) => {
             </Segment>
             <Segment>
               <div>
-                <label>Column Index 0 in File 2:</label>
+                <label>DPholding Name Column :</label>
                 <input
                   type="number"
                   value={ColumnIndex0File2}
@@ -518,7 +518,7 @@ const extractCellValue = (value) => {
             </Segment>
             <Segment>
               <div>
-                <label>Third Column Index to Compare in File 2:</label>
+                <label>DPholding UCC Column :</label>
                 <input
                   type="number"
                   value={ColumnIndex6}
@@ -528,7 +528,7 @@ const extractCellValue = (value) => {
             </Segment>
             <Segment>
               <div>
-                <label>Column Index to Compare in File 2:</label>
+                <label>DPholding Isin Column :</label>
                 <input
                   type="number"
                   value={ColumnIndex3}
@@ -538,7 +538,7 @@ const extractCellValue = (value) => {
             </Segment>
             <Segment>
               <div>
-                <label>Second Column Index to Compare in File 2:</label>
+                <label>DPholding Quantity Column :</label>
                 <input
                   type="number"
                   value={ColumnIndex4}
